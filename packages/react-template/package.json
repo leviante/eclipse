@@ -1,0 +1,30 @@
+{
+  "name": "@eclipse/react-template",
+  "version": "1.0.0",
+  "description": "A CLI to create a basic Webpack template for React projects",
+  "main": "cli.js",
+  "bin": {
+    "@eclipse/eclipse-rt": "bin/rt",
+    "eclipse-rt": "bin/rt"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "eclipse-react-template",
+    "eclipse-rt"
+  ],
+  "author": "Berk Açıkgöz",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "execa": "^4.0.3",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3"
+  }
+}
